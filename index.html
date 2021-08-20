@@ -48,32 +48,32 @@
           <!------------------------- Memory -------------------------->
 
           <p class="pt-5"><strong>Memory</strong></p>
-          <button type="button" class="btn btn-outline-dark">
+          <button id="memory8" type="button" class="btn btn-outline-dark">
             8GB unified memory
           </button>
-          <button type="button" class="btn btn-outline-dark">
+          <button id="memory16" type="button" class="btn btn-outline-dark">
             16 GB unified memory
           </button>
 
           <!------------------------- Storage -------------------------->
 
           <p class="pt-5"><strong>Storage</strong></p>
-          <button type="button" class="btn btn-outline-dark">
+          <button id="storage256" type="button" class="btn btn-outline-dark">
             256GB SSD storage
           </button>
-          <button type="button" class="btn btn-outline-dark">
+          <button id="storage512" type="button" class="btn btn-outline-dark">
             512GB SSD storage
           </button>
-          <button type="button" class="btn btn-outline-dark">
+          <button id="storage1t" type="button" class="btn btn-outline-dark">
             1TB SSD storage
           </button>
 
           <!------------------------- Delivery -------------------------->
           <p class="pt-5"><strong>Choose your delivery option</strong></p>
-          <button type="button" class="btn btn-outline-dark">
+          <button id="deliveryFree" type="button" class="btn btn-outline-dark">
             Friday, Aug 25 FREE Prime Delivery
           </button>
-          <button type="button" class="btn btn-outline-dark">
+          <button id="deliveryQuick" type="button" class="btn btn-outline-dark">
             Friday, Aug 21 Delivery charge $20
           </button>
 
@@ -86,22 +86,22 @@
               </tr>
               <tr>
                 <th>Extra Memory Cost</th>
-                <th>$0</th>
+                <th>$ <span id="extraMemoryCost">0</span></th>
               </tr>
               <tr>
                 <th>Extra Storage Cost</th>
-                <th>$0</th>
+                <th>$<span id="extraStorageCost">0</span></th>
               </tr>
               <tr>
                 <th>Delivery Charge</th>
-                <th>$0</th>
+                <th>$<span id="extraDeliveryCost">0</th>
               </tr>
             </tbody>
 
             <tfoot>
               <tr>
                 <th>Total Price</th>
-                <th>$1299</th>
+                <th>$ <span id = "table-total">1299</span></th>
               </tr>
             </tfoot>
           </table>
