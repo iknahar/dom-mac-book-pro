@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mac Book Pro</title>
+
+    <!---------------- Bootstrap CDN CSS ---------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!---------------- Custom CSS  ---------------- -->
+    <style>
+      body {
+        outline: none;
+        border: none;
+        box-sizing: border-box;
+        padding: 30px;
+        margin: 40px;
+      }
+      img {
+        max-width: 90%;
+      }
+    </style>
+
+    <!---------------- Head  ---------------- -->
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <img src="images/mac.png" alt="" />
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <h1>Customize your Blue 24-inch Mac with Apple M1 chip.</h1>
+          <p>
+            Apple M1 chip with 8-core CPU with 4 performance cores and 4
+            ef?ciency cores, 7-core GPU, and 16-core Neural Engine 8GB unified
+            memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse
+            Magic Keyboard - US English
+          </p>
+
+          <!------------------------- Memory -------------------------->
+
+          <p class="pt-5"><strong>Memory</strong></p>
+          <button type="button" class="btn btn-outline-dark">
+            8GB unified memory
+          </button>
+          <button type="button" class="btn btn-outline-dark">
+            16 GB unified memory
+          </button>
+
+          <!------------------------- Storage -------------------------->
+
+          <p class="pt-5"><strong>Storage</strong></p>
+          <button type="button" class="btn btn-outline-dark">
+            256GB SSD storage
+          </button>
+          <button type="button" class="btn btn-outline-dark">
+            512GB SSD storage
+          </button>
+          <button type="button" class="btn btn-outline-dark">
+            1TB SSD storage
+          </button>
+
+          <!------------------------- Delivery -------------------------->
+          <p class="pt-5"><strong>Choose your delivery option</strong></p>
+          <button type="button" class="btn btn-outline-dark">
+            Friday, Aug 25 FREE Prime Delivery
+          </button>
+          <button type="button" class="btn btn-outline-dark">
+            Friday, Aug 21 Delivery charge $20
+          </button>
+
+          <!------------------------- pricing table ------------------------->
+          <table class="mt-5 table">
+            <tbody>
+              <tr>
+                <th>Best Price</th>
+                <th>$1299</th>
+              </tr>
+              <tr>
+                <th>Extra Memory Cost</th>
+                <th>$0</th>
+              </tr>
+              <tr>
+                <th>Extra Storage Cost</th>
+                <th>$0</th>
+              </tr>
+              <tr>
+                <th>Delivery Charge</th>
+                <th>$0</th>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <th>Total Price</th>
+                <th>$1299</th>
+              </tr>
+            </tfoot>
+          </table>
+
+          <!----------------table end ---------------->
+
+          <!----------------Promo Code Table ---------------->
+
+          <div class="promo-section mt-4">
+            <p>Add Promo Code</p>
+            <form class="row g-3">
+              <div class="col-auto">
+                <input type="text" class="form-control" id="promoCodeInput" />
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-danger mb-3">Apply</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!----------------Horizontal Rule ---------------->
+      <hr class="m-2" />
+
+      <!----------------Total Section ---------------->
+      <h2 class="text-center mt-3">Total: $ 1299</h2>
+
+      <!----------------Content End---------------->
+    </div>
+
+    <!-------------------------------------- Bootstrap CDN JS -------------------------------->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script> -->
+    <!-------------------------------------- JavaScript Attach -------------------------------->
+    <script src="js/app.js"></script>
+    <!----------------End ---------------->
+  </body>
+</html>
