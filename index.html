@@ -112,14 +112,14 @@
 
           <div class="promo-section mt-4">
             <p>Add Promo Code</p>
-            <form class="row g-3">
+            <div class="row g-3">
               <div class="col-auto">
                 <input type="text" class="form-control" id="promoCodeInput" />
               </div>
               <div class="col-auto">
-                <button class="btn btn-danger mb-3">Apply</button>
+                <button class="btn btn-danger mb-3" id ="apply-coupon" onclick="couponApplied()" >Apply</button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@
       <hr class="m-2" />
 
       <!----------------Total Section ---------------->
-      <h2 class="text-center mt-3">Total: $ 1299</h2>
+      <h2 class="text-center mt-3">Total: $ <span id ="grand-total">1299</span></h2>
 
       <!----------------Content End---------------->
     </div>

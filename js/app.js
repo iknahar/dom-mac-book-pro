@@ -73,3 +73,16 @@ document.getElementById("deliveryQuick").addEventListener("click", function () {
   tableTotalCalculation();
 });
 
+// ------------------ Coupon Apply -------------
+
+function couponApplied() {
+  if (document.getElementById("promoCodeInput").value == "stevekaku") {
+    document.getElementById("grand-total").innerText =
+      parseInt(document.getElementById("table-total").innerText) * 0.8;
+  } else {
+    document.getElementById("grand-total").innerText =
+      document.getElementById("table-total").innerText;
+  }
+  var emptyString = "";
+  document.getElementById("promoCodeInput").value = emptyString;
+}
